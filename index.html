@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form">
+        <label for="ad">
+          TAM ADİNİZİ DAXİL EDİN: <br> <input type="text" required name="ad" id="ad">
+        </label>
+        <label for="seriya">
+        VƏSİQƏ SERİYA VƏ NÖMRƏSİ:  <br>  <input type="text"required name="seriya" id="seriya">
+        </label>
+        <label for="cins">
+               CİNSİNİZ:<br><select name="cins" id="cins">
+                    <option value="KİŞİ">KİŞİ</option>
+                    <option value="QADIN">QADIN</option>
+                </select>
+        </label>
+        <label for="yas">
+          YAŞINIZ:  <br><input type="number"required name="yas" id="yas">
+        </label>
+        <label for="mail">
+          E-MAİL: <br><input type="email" required name="mail" id="mail">
+        </label>
+        <label for="tel">
+         TELEFON NÖMRƏSİ:  <br> <input type="text" required name="tel" id="tel">
+        </label>
+        <label for="yazi">
+         Simptomların təsviri: <br> <textarea name="yazi" id="yazi" cols="30" rows="10"></textarea>
+        </label>
+        <label>
+        Tesdiq edin:<input type="checkbox" id="checkbox">
+        </label>
+          <button>Göndər</button>
+          
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
